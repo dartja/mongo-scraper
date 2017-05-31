@@ -1,5 +1,5 @@
 $(document).ready(function(){
- $.getJSON("/nba_title", function(response) {
+ $.getJSON("/pga_title", function(response) {
     response.forEach(function(article) {
   var body_section = "<div class='col-md-4 col-md-offset-4'>";
       body_section += "<h3>" + article.title + "</h3>";
